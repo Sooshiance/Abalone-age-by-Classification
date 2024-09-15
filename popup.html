@@ -7,11 +7,25 @@
         body {
             font-family: Arial, sans-serif;
             padding: 10px;
+            width: 1050px;
+            background-color: darkcyan;
         }
 
-        input,
-        button {
+        input {
+            position: relative;
+        }
+
+        div {
             margin: 5px 0;
+            display: block;
+        }
+
+        #sha_384 {
+            float: 250px;
+        }
+
+        p {
+            color: gold;
         }
     </style>
 </head>
@@ -19,7 +33,10 @@
 <body>
     <h1>SHA-2 Hasher</h1>
     <input type="text" id="inputValue" placeholder="Enter value to hash" />
-    <button id="hashButton">Hash</button>
+    <div>
+        <button id="sha_256">SHA 256</button>
+        <button id="sha_384">SHA 384</button>
+    </div>
     <p style="margin: 5px;" id="hashed"></p>
     <script src="popup.js"></script>
 </body>
