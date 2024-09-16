@@ -10,9 +10,9 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "icons/icon16.png",
-            "48": "icons/icon48.png",
-            "128": "icons/images.png"
+            "16": "icons/a1am5-276eh-002.ico",
+            "48": "icons/a1am5-276eh-001.ico",
+            "128": "icons/awjvs-ss20e-003.ico"
         }
     }
 }
