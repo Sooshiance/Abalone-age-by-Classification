@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "SHA-2 Hasher",
+    "name": "Strong Password",
     "version": "1.0",
-    "description": "Hashes a value using SHA-2 algorithm",
+    "description": "Hashes a string using SHA-256/SHA-384 algorithm",
     "permissions": [
         "activeTab",
         "scripting"
