@@ -12,11 +12,12 @@ Here's how it works :
 
 ## Firefox
 
-Open the Firefox developer edition go to this path :
+- Open the Firefox developer edition go to this path :
 
-**`about:debugging#/runtime/this-firefox`**
+        about:debugging#/runtime/this-firefox
 
-click the **`Load Temporary Add-on...`**
+- click the
+        Load Temporary Add-on
 
 load the `manifest.json` file and now your add-on should serves you well.
 
